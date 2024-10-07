@@ -13,7 +13,7 @@
     express-server:  
       platform: linux/amd64
       container_name: express-server
-      image: capstoneasr.azurecr.io/optum-azure-capstone-express-server:v1
+      image: capstoneasr.azurecr.io/optum-azure-capstone-express-server:v2
       build: ./express-server  
       ports:  
         - "3000:3000"  

@@ -11,7 +11,7 @@ configMapGenerator:
 
 images:
 - name: capstoneasr.azurecr.io/optum-azure-capstone-express-server
-  newTag: v1
+  newTag: v2
 - name: capstoneasr.azurecr.io/optum-azure-capstone-flask-api
   newTag: v1
 - name: nouchka/sqlite3
