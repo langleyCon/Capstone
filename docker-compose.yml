@@ -36,7 +36,7 @@
       restart: always 
 
     sqlite-db:  
-      image: nouchka/sqlite3
+      image: keinos/sqlite3
       volumes:  
         - ./database:/data  
       networks:  

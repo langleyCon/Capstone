@@ -14,7 +14,7 @@ images:
   newTag: v2
 - name: capstoneasr.azurecr.io/optum-azure-capstone-flask-api
   newTag: v1
-- name: nouchka/sqlite3
+- name: keinos/sqlite3
   newTag: latest
 - name: capstoneasr.azurecr.io/optum-azure-capstone-angular-app
   newTag: v1
