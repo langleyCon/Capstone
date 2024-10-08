@@ -2,7 +2,7 @@
     angular-app:
       platform: linux/amd64
       container_name: angular-app
-      image: capstoneasr.azurecr.io/optum-azure-capstone-angular-app:v3
+      image: capstoneasr.azurecr.io/optum-azure-capstone-angular-app:v4
       build: ./angular-app  
       ports:  
         - "4200:80"  
