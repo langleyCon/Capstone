@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sqlite-db
-        image: keinos/sqlite3
+        image: keinos/sqlite3:latest
         volumeMounts:
         - name: sqlite-storage
           mountPath: /data
