@@ -4,6 +4,8 @@ resources:
 - database/
 - ingress/
 
+namespace: default
+
 configMapGenerator:
 - literals:
   - ASPNETCORE_ENVIRONMENT=Development
